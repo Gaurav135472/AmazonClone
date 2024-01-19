@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazone Clone</title>
+    <link rel="stylesheet" href="front.css">
+    <link rel="stylesheet" href="util.css">
+    <script src="front.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="headerCon1 flex alignIteams spaceEvenly ">
+                <img class="logo" src="images/amazon_logo.png" alt="amazon_logo">
+            <div class="flexcolumdi border">
+                <p class="fadd font12px">Deliver</p>
+                <div class="flex sadd alignIteams">
+                    <i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>
+                    <p class="font14px">Canada</p>
+                </div>
+            </div>
+           <div class="searchbar flex">
+            <select name="caterigios" id="caterigios" class="searchSelect">
+                <option value="All">All</option>
+            </select>
+            <input type="search" name="search" id="search" class="searchInput" placeholder="Search Amazon">
+            <button class="searchButton"><i class="fa-solid fa-magnifying-glass"></i></button>
+           </div>
+           <div class="language border">
+            <select name="language" id="language">
+                <option value="English">English</option>
+                <option value="French">French</option>
+                <option value="Hindi">Hindi</option>
+            </select>
+           </div>
+           <div class="login flexcolumdi border">
+            <div class="signInButton">
+            <button class="login signInButton">signIn</button>
+        </div>
+            <div class="signInMenu">
+                <form action="front.php">  
+                    <label class="loginStyle" for="email">Email</label>
+                    <input class="loginStyle" type="email" name="email" id="email" autocomplete="email">
+            
+                    <label class="loginStyle" for="password">Password</label>
+                    <input class="loginStyle" type="password" name="password" id="password" autocomplete="current-password">
+            
+                    <label class="loginStyle" for="conPassword">Confirm Password</label>
+                    <input class="loginStyle" type="password" name="conPassword" id="conPassword" autocomplete="new-password">
+                </form> 
+                        
+        </div>
+        </div>
+        <div class="returnOrder flexcolumdi border">
+            <p class="font12px">Return</p>
+            <p class="font14px">& Orders</p>
+        </div>
+        <div class="cart border">
+            <i class="fa-solid fa-cart-shopping fa-xl" style="color: #f4f5f5;"></i>
+        </div>
+        </div>
+        <div class="headerCon2 flex alignIteams">
+            <div class="allLogo flex borderButton">
+                <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+                <p>All</p>
+            </div>
+            <div class="option">
+                <button class="buttonStyle borderButton">Todays Deals</button>
+                <button class="buttonStyle borderButton">Customer service</button>
+                <button class="buttonStyle borderButton">Registry</button>
+                <button class="buttonStyle borderButton">Gift Cards</button>
+                <button class="buttonStyle borderButton">Sell</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="bgImgMain">
+            <div class="sliderImg">
+            <div class="bgSlider"><img src="images/kitchen_bgImg.jpg" alt="kitchen"></div>
+            <div class="bgSlider"><img src="images/toys_bgImg.jpg" alt="toys"></div>
+            <div class="bgSlider"> <img src="images/shop_bgImg.jpg" alt="shop"></div>
+            <div class="bgSlider"> <img src="images/beauty_bgImg.jpg" alt="beauty"></div>
+            <div class="bgSlider"><img src="images/Gaming_ngImg.jpg" alt="Gaming"></div>
+        </div>  
+        
+            <button class="rightButton"><i class="fa-solid fa-chevron-right fa-2xl arrow" style="color: #ffffff;"></i></button>
+            <button class="leftButton"><i class="fa-solid fa-chevron-left fa-2xl arrow" style="color: #ffffff;"></i></button>
+            <div class="firstPara">
+            <p>   You are on amazon.com. You can also shop on Amazon Canada for millions of products with fast local delivery. <a href="https://www.amazon.ca/">Click here to go to amazon.ca</a> </p> </div>
+        </div>
+            <div class="gridContainer">
+                <div class="gamming gridIteams">
+                    <p>Gamming Accessories</p>
+                    <div class="gammingAccessories">
+                    <div class="secGrid">
+                        <img src="images/Grid1Img1.jpg" alt="Grid1Img1">
+                    </div>
+                    <div class="secGrid">
+                        <img src="images/grid1Img2.jpg" alt="grid1Img2">
+                    </div>
+                    <div class="secGrid">
+                        <img src="images/grid1Img3.jpg" alt="grid1Img3">
+                    </div>
+                    <div class="secGrid">
+                        <img src="images/grid1Img4.jpg" alt="grid1Img4">
+                    </div>
+                </div>
+            </div>
+                <div class="toys gridIteams">
+                    <p>Toys under 30$</p>
+                    <img src="images/grid2img.jpg" alt="gridImg2">
+                </div>
+                <div class="electronic gridIteams">
+                    <p>Electronics</p>
+                    <img src="images/grid3Img.jpg" alt="gridImg3">
+                </div>
+                <div class="gridSignIn gridIteams">
+                    <div class="signGrid">
+                        <p>Sign In for the best experience</p>
+                    <button>Sign In securly</button>
+                    </div>
+                    <div class="img8 gridIteams">
+                        <img src="images/img8.jpg" alt="img8">
+                    </div>
+                </div>
+                <div class="homeAndKitchen gridIteams">
+                    <p>Home and Kitchen Under 30$</p>
+                    <img src="images/grid4Img.jpg" alt="grid4Img">
+                </div>
+                <div class="healthAndCare gridIteams">
+                    <p>Health and Personal cared</p>
+                    <img src="images/grid5Img.jpg" alt="grid5Img">
+                </div>
+                <div class="topDeals gridIteams">
+                    <p>Top Deal</p>
+                    <img src="images/grid6img.jpg" alt="grid6img">
+                </div>
+                <div class="beauty gridIteams">
+                    <p>Beauty picks</p>
+                    <img src="images/grid7Img.jpg" alt="grid7Img">
+                </div>
+            </div>
+            
+        </div>
+    </main>
+    <footer>
+        <div class="footerContent">
+            <p>  &#169; Created by:  Gaurav Patel </p>
+            <br>
+            <div class="email">
+                <a href="mailto:gauravpatel7777g@gmail.com">Email : gauravpatel7777g@gmail.com</a>
+            </div>
+            <br>
+            <div class="contactNO">
+                <a href="tel:(519)731-9032">Mobile NO: (519)731-9032</a>
+            </div>
+        </div>
+           
+       
+         
+    </footer>
+</body>
+</html>
