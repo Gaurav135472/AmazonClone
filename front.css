@@ -1,0 +1,185 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #CCCCCC;
+}
+.headerCon1{
+  background-color: #0F1111;
+  color: #FFFF;
+}
+.logo{
+  width: 8%;
+  border: 2px solid transparent;
+}
+.logo:hover{
+  border: 2px solid white;
+}
+.sadd p{
+  margin: 0px 0px 0px 5px;
+  font-size: 14px;
+}
+.sadd{
+  margin: 0px 0px 0px 5px;
+}
+.fadd{
+  margin: 0px 0px 0px 15px;
+  color: #CCCCCC;
+  font-size: 12px;
+}
+.searchbar{
+  width: 50%;
+  height: 40px;
+  border: none;
+}
+
+.searchSelect{
+  background-color: #f3f3f3;
+  text-align: center;
+  width: 52px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border: none;
+}
+.searchInput{
+  width: 100% ;
+  font-size: 1rem;
+  border: none;
+}
+.searchButton{
+  width: 52px;
+  font-size: 1.2rem;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border: none;
+  background-color: rgba(255, 178, 23, 0.927);
+}
+.language  select, option{
+  background-color: #0F1111;
+  color: #f3f3f3;
+  border: none;
+  font-weight: bold;
+}
+.cartLogo{
+  width: 55px;
+}
+.headerCon2{
+  background-color: #222f3d;
+  color: #FFFF;
+  justify-content: flex-start;
+}
+.allLogo p{
+  margin-left: 4px;
+}
+.sliderImg{
+  position: relative;
+  display: flex;
+  z-index: 0;
+  width: 500vw;
+  transition: all 1.5s ease-in-out;
+}
+.bgImgMain img{
+   width: 99vw;
+}
+
+.firstPara{
+  position: absolute;
+  left: 4%;
+  top: 40%;
+  background-color: #FFFF;
+  width: 90vw;
+  text-align: center;
+  padding: 10px;
+}
+.leftButton{
+  position: absolute;
+  left: 2%;
+  top: 0%;
+  width: 4%;
+  height: 40%;
+  background-color: transparent;
+  border: none;
+}
+.rightButton{
+  position: absolute;
+  left: 94%;
+  top: 0%;
+  width: 4%;
+  height: 40%;
+  background-color: transparent;
+  border: none;
+}
+
+
+.gridIteams img{
+  width: 17em;
+  height: 18em;
+  margin: 2em 0 0 2em;
+  
+  
+}
+.gridIteams p{
+  margin: 2em 0 0 2em;
+  font-weight: bold;
+  font-size: larger;
+}
+.gridIteams{
+  background-color: #FFFFFF;
+  color: black;
+  width: 21.1em;
+  height: 25.875em;
+
+}
+.secGrid img{
+  width: 5.5em;
+  height: 5em;
+  margin: 4em 0 0 2em;
+}
+.img8{
+  margin-top: 8%;
+  height:15em;
+
+  background-color: none;
+  
+}
+.img8 img{
+  margin: 0.1em 0 0 2em;
+  height: 15em;
+
+  
+}
+.gridSignIn{
+  display: grid;
+}
+.signGrid{
+  height: 9em;
+  background-color: aqua;
+}
+.signGrid button{
+  margin: 2em 0 0 9em;
+}
+.login{
+  position: relative;
+}
+.signInMenu{
+  position: absolute;
+  left: 1em;
+  top: calc(100% + 0.2em) ;
+  z-index: 1;
+  background-color: #ffff;
+  color: #0F1111;
+  width: 12em;
+  height: 10em;
+  border-radius: 0.5em;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1); 
+  display: none;
+}
+.loginStyle{
+  margin: 0.5em 0 0 0.5em;
+}
+.show {display:block;}
+.signInButton{
+  border: none;
+  background :  #0F1111;
+  color: #FFFF;
+  width: 100%;
+}
